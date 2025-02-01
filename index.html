@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silly froggy Adventure</title>
+    <title>Silly Froggy Adventure</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<canvas></canvas>
+<body>
+    <div id="start-screen">
+        <img id="title-screen" src="img/TitleScreen.png" alt="Title Screen">
+        <img id="start-button" src="/img/StartGame.png" alt="Start Game Button">
+    </div>
+    <div id="end-screen">
+        <img id="game-over-screen" src="img/GameOverScreen.png" alt="Game Over Screen">
+    </div>
+    <div id="flycollected">
+        <img id="fly-collected" src="img/Flycollected.png" alt="Game Over Screen">
+    </div>
+    <canvas></canvas>
     <script type="module" src="./js/utils/collision.js"></script>
     <script type="module" src="./js/classes/CollisionBlock.js"></script>
     <script type="module" src="./js/data/collisions.js"></script>
     <script type="module" src="js/script.js"></script>
     <script type="module" src="./js/classes/player.js"></script>
     <script type="module" src="./js/classes/sprite.js"></script>
-
+</body>
 </html>

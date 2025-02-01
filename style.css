@@ -1,3 +1,46 @@
 body {
     background-color: black;
 }
+
+#start-button {
+    position: absolute;
+    padding: 1250px;
+}
+
+#title-screen {
+    position: absolute;
+    object-fit: cover;
+}
+
+#start-screen {
+    scale: 53.5%;
+    position: fixed;
+}
+
+
+#end-screen{
+    scale: 53.5%;
+    position: fixed;
+    display: none;
+}
+
+#game-over-screen{
+    position: absolute;
+    object-fit: cover;
+}
+
+#flycollected {
+    position: absolute;
+    left: -1%;    
+    top: -1%;
+    transform: translate(-40%, -40%);
+    scale: 55%;
+    display: none;
+    position: fixed;
+}
+
+
+#fly-colllected{
+    position: absolute;
+    object-fit: cover;
+}
